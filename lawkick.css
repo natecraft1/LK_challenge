@@ -1,0 +1,32 @@
+#nates_widget {
+	background: lightblue;
+	width: 600px;
+	height: 400px;
+	font-family: Helvetica;
+	position: absolute;
+	text-align: center;
+}
+#question {
+	font-size: 30px;
+}
+#result {
+	font-size: 35px;
+	margin-top: 70px;
+}
+#hints {
+	bottom: 10px;
+	font-size: 22px;
+	position: absolute;
+
+}
+#finalMessage {
+	font-size: 100px;
+	position: absolute;
+	margin: auto;
+	top: 200px;
+	left: 150px;
+	color: orange;	
+}
+svg {
+	float: right;
+}
