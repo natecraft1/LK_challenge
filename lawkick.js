@@ -31,7 +31,6 @@
 			this.$result = $("#result");
 			this.presentQuestion(this.questions[this.correctAnswerCount]);
 			this.hint();
-
 			var that = this;
 			this.$answerInput.keypress(function(event) {
 				if ( event.which == 13 ) {
